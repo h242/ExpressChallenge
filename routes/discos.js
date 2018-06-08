@@ -260,16 +260,19 @@ function random(a){
 
 
 
-router.get('/discos/:seleccionado', function(req, res, next) {
+router.get('/:seleccionado', function(req, res, next) {
+
+    let disco = {};
+
 	for (var i = disks.length - 1; i >= 0; i--) {
 
 		if (disks[i].codigo === req.params.seleccionado) {
-			  res.render('codigo', { title5: 'Seleccionaste este disco:', disco: disks[i]});
-			  return;
+			  disco = disks[i];			  
 		}
 	}
-	res.send(404)
-
+    console.log(disco);
+    res.render('codigo', { title5: 'Seleccionaste este disco:', disco: disco});
+	
 });
 
 

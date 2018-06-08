@@ -57,6 +57,22 @@ img {
     -webkit-user-drag: none;
     user-drag: none;
 }
+
+.intro{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+
+
+}
+
+.homeimg{
+
+    width: 300px;
+    height: 300px;
+}
+
 a,
 a:hover,
 a:active,
