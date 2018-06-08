@@ -2,4 +2,9 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p LA librería online más cool del siglo XXI.
+  each val in generosMasEscuchados
+   div.val
+    h1=title2
+    img(src=val.src)
+    
