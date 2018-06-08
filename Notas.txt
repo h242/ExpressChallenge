@@ -1,0 +1,29 @@
+Express Challenge
+
+Musica
+
+
+Depeche
+The Beatles
+The Doors
+
+Generos
+
+Repartir!
+Views=pugs+
+
+Home con discos favoritos =>get
+Filtro x genero => pasado x param =>get
+Vista de disco =>get
+
+Error!@ para el login = 
+handler
+
+User Subscribe = post
+Login de User	= post
+validacion 
+ 
+
+
+---------------
+
