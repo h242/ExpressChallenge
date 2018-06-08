@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1=title4
+  each val in detalleDiscos
+   div.val
+    h1=val.titulo
+    img(src=val.img)
+    p=val.autor
+    p=val.año
+    p=val.codigo
+    a(href="/discos/"+val.codigo) Clickeá para más!

@@ -1,0 +1,18 @@
+Express Extra ChallengeObjetivo: generar el código necesario para desplegar una tienda de discos. Teniendo en cuenta lassiguientes condiciones.
+Realizar todas las rutas GET para desplegar información-/ (debe cargar la home con los discos favoritos)-/generos (devuelve un arreglo con todas los géneros musicales disponibles)-/discos (trae todos los discos)-/discos/:id (trae el detalle de un disco particular)-/discos/generos/:id (trae todos los discos de un genero pasado por parametro)Consideraciones:- Los géneros están guardados en un arreglo:
+generos = [‘Rock’,’Soul’,’Folk’,’Clasico’]- Los discos se representan con un objeto:disco{nombre: ‘Unplugged’,artista:’Alejandro Sanz’,genero:id}El id hace referencia a la posición del género dentro del array generos.Los discos se guardarán en un arreglo de objetos disco.
+
+Considerar 2 servicios POST
+
+1) Registro de usuario
+
+	- Nombre
+	- Mail
+	- Contraseña
+
+2) Login
+
+	- Email
+	- Contraseña
+
+Se deben mostrar las correspondientes páginas de error
