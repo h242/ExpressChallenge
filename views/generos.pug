@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title3
+  each val in seleccionGeneros
+   div.val
+    h1=val.nombre
+    img(src=val.src)
+  
+
+
+  
