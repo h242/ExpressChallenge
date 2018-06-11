@@ -1,4 +1,6 @@
 
+<<<<<<< HEAD
+=======
 
 /*
 Author: Bootstrapthemes
@@ -8,6 +10,7 @@ Author URI: http://bootstrapthemes.co
    Author's custom styles
    ========================================================================== */
 html,
+>>>>>>> 714f607d5e5569829c072d244a553df5ee0f5d9e
 body {
     background-color: #fff;
     font-size: 14px;
@@ -54,6 +57,22 @@ img {
     -webkit-user-drag: none;
     user-drag: none;
 }
+
+.intro{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+
+
+}
+
+.homeimg{
+
+    width: 300px;
+    height: 300px;
+}
+
 a,
 a:hover,
 a:active,
@@ -829,6 +848,12 @@ input::-ms-input-placeholder {
     height: 100%;
 }
 
+<<<<<<< HEAD
+img{
+	width: 300px;
+	height:300px;
+}
+=======
 .main_service .single_service.single_service_text {
     margin-right:0px;
     background: #202020;
@@ -1498,5 +1523,6 @@ li .single_team_text p{
 
 
 
+>>>>>>> 714f607d5e5569829c072d244a553df5ee0f5d9e
 
 
