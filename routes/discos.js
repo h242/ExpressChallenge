@@ -1,10 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-<<<<<<< HEAD
 
-=======
->>>>>>> sofiandela
 var generos = [{nombre:'Classic Rock',
                 src:"/images/classicRock.png"}
                 ,
@@ -280,8 +277,6 @@ router.get('/:seleccionado', function(req, res, next) {
 });
 
 
-<<<<<<< HEAD
+
 module.exports = router;
-=======
-module.exports = router;
->>>>>>> sofiandela
+
